@@ -1,0 +1,221 @@
+/* body background color and color helps with switching to dark mode*/
+
+body{
+    background-color: powderblue; 
+    color: #000000;
+    
+  }
+
+
+
+.dark-mode {
+            background-color: #1c1c1c;
+            color: #ffffff;
+            
+            }
+
+
+/* dark mode highlight flips the color of the footer which is white background and black color when it goes on dark mode it will be white font color and black background color */
+
+.dark-mode .highlight{
+        margin-top:30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #050000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:20px;
+        color:white
+}
+
+
+/* video title is the class representing the title of the page */
+
+.video-title{
+          font-family: Arial;
+          font-size: 30px;
+          font-weight: bold;
+          font-style: italic;
+          text-align: center;
+          width: 600px;
+          line-height:26px;
+          margin-bottom: 0;
+          margin-top: 20px;
+          display: inline-block;
+          padding-bottom:15px;
+  
+      }
+
+
+/* video stats represents the stats about the page that slides across the page. */
+
+
+.video-stats{
+          font-family: Arial;
+          font-size: 14px;
+          color: rgb(96,96,96);
+          margin-top:20px;
+          margin-bottom: 30px;
+  
+      }
+
+/* chunk is the whole section from title of first book to the author's name in the last book */
+
+
+.chunk{
+        width:100%;
+        display:inline-block;
+    }
+
+
+
+
+/* highlight represents the footer */
+
+.highlight{
+        margin-top:30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:20px;
+        color:black;
+    }
+
+
+/* class ker sir and shr represents the names of group members in the footer */
+
+.ker{
+        padding-left:35px;
+        display:inline-block;
+        width:30%;
+    }
+
+.sir{
+        display:inline-block;
+        width:30%;
+    }
+
+.shr{
+        width:30%;
+        display:inline-block;
+    }
+
+/* margin and padding is set 0 to make the side bar working */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+/* b represents the summary of the the page below the sliding page views */
+
+.b{ 
+    width:40%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+
+@media (max-width: 620px){
+     .main, .pics{
+        width:100%;
+    }
+}
+
+/* media helps make the sidebar dynamic */
+
+@media (max-width: 620px){
+    .line{
+        display:block;
+        font-size:15px;
+        padding-top: 5px;
+        
+        font-weight:bold;
+        }
+        .line a{
+        color:black;
+        
+    }
+
+    #sidebar{
+        
+        display:block;
+        background-color: lightyellow;
+        width:100%;
+        
+    }
+    .info{
+        display:block;
+        text-align:center;
+    }
+
+   }
+
+@media (min-width: 620px){
+    #sidebar {
+        position: fixed;
+        width: 10%;
+        height:53.5%;
+        left: -10%;
+        background-color:lightyellow;
+        transition:.4s;
+    
+    }
+    
+    #sidebar li{
+        color:rgb(0, 253, 4);
+        font-size: 20px;
+        padding: 25px;
+        border-bottom:1px solid rgb(5, 0, 7);
+        text-align: center;
+    
+    }
+    
+    .toogle-btn{
+        position:absolute;
+        left: 103%;
+        top:15px;
+        cursor: pointer;
+    }
+    
+    .toogle-btn span{
+        display:block;
+        background-color:lightyellow;
+        width:30px;
+        height: 4px;
+        margin: 3px;
+    
+    }
+    
+    #sidebar.active {
+        left:0;
+    }
+    
+}
+
+/* media here makees the images and webpage content dynamic for mobile view */
+
+@media (max-width: 620px){
+     .video-title, .pics{
+        width:100%;
+    }
+}
+
+.pics{
+    float:CENTER; 
+    width:35%;
+}
+
+
+/* admbtn and adm is the part of admin page exclusively that helps order the images */
+
+.admbtn{
+  vertical-align: top;
+  
+}
+.adm{
+  left:20%;
+  padding-top: 20px;
+}

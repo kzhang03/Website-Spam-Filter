@@ -1,0 +1,52 @@
+<html>
+<head>
+  <meta name="viewport" content="width-devide-width, initial-scale = 1.0">
+  <Title>Book 4</Title>
+  <link rel="stylesheet" type="text/css" href="stylepage.css">
+</head>
+  <!-- Dark mode oggle -->
+  <h2>Change to Dark or Light Mode</h2>
+  <button on onclick="DM()"> Toggle Mode</button>
+  <h3><a href="index.html"> Go back to main page</a></h3>
+  <hr>
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1534503008i/20758104.jpg"class=pics>
+<h1>The Knife of Never Letting Go</h1>
+<table>
+  <tr>
+    <th>Author</th>
+    <th>Patrick Ness</th>
+  </tr>
+  <tr>
+    <th>Published Year</th>
+    <th>2008</th>
+  </tr>
+  <tr>
+    <th>Rating</th>
+    <th>★★★★☆</th>
+  </tr>
+</table>
+<hr>
+<h2>Summary</h2>
+<p>
+    Todd Hewitt is the only boy in a town of men. Ever since the settlers were infected with the Noise germ, Todd can hear everything the men think, and they hear everything he thinks. Todd is just a month away from becoming a man, but in the midst of the cacophony, he knows that the town is hiding something from him -- something so awful Todd is forced to flee with only his dog, whose simple, loyal voice he hears too. With hostile men from the town in pursuit, the two stumble upon a strange and eerily silent creature: a girl. Who is she? Why wasn't she killed by the germ like all the females on New World? Propelled by Todd's gritty narration, readers are in for a white-knuckle journey in which a boy on the cusp of manhood must unlearn everything he knows in order to figure out who he truly is.
+  </p>
+  <!-- Review adding panel -->
+<h3>Review List</h3>
+  <input type="text" id="review-input-page5" placeholder="Add a review...">
+  <button id="add-review" onclick="fetchInfo('review-input-page5')">Add</button>
+  <button id="delete-all">Delete All</button>
+  <p id="review-list-page5">
+    No reviews yet
+  </p>
+    <hr>
+<h3>About the Author</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Patrick_Ness_en_los_Premios_Goya_2017.jpg" class="dynamic-img">
+<p>
+    Patrick Ness, an award-winning novelist, has written for England’s Radio 4 and Sunday Telegraph and is a literary critic for The Guardian. He has written many books, including the Chaos Walking Trilogy, The Crash of Hennington, Topics About Which I Know Nothing, and A Monster Calls.
+
+    He has won numerous awards, including the Guardian Children’s Fiction Prize, the Booktrust Teenage Prize, and the Costa Children’s Book Award. Born in Virginia, he currently lives in London.    
+</p>
+<script src="reviews.js"> </script>
+<script src="reviewsinterface.js"> </script>
+<script>tempLoad = [KnifeReviews,"KnifeJSON", document.getElementById("review-list-page5")] </script>
+</html>

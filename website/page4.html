@@ -1,0 +1,52 @@
+<html>
+<head>
+  <meta name="viewport" content="width-devide-width, initial-scale = 1.0">
+  <Title>Book 4</Title>
+  <link rel="stylesheet" type="text/css" href="stylepage.css">
+</head>
+  <!-- Dark mode oggle -->
+  <h2>Change to Dark or Light Mode</h2>
+  <button on onclick="DM()"> Toggle Mode</button>
+  <h3><a href="index.html"> Go back to main page</a></h3>
+  <hr>
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327940656i/153747.jpg"class=pics>
+<h1>Moby Dick</h1>
+<table>
+  <tr>
+    <th>Author</th>
+    <th>Herman Melville</th>
+  </tr>
+  <tr>
+    <th>Published Year</th>
+    <th>1851</th>
+  </tr>
+  <tr>
+    <th>Rating</th>
+    <th>★★★☆☆</th>
+  </tr>
+</table>
+<hr>
+<h2>Summary</h2>
+<p>
+    So Melville wrote of his masterpiece, one of the greatest works of imagination in literary history. In part, Moby-Dick is the story of an eerily compelling madman pursuing an unholy war against a creature as vast and dangerous and unknowable as the sea itself. But more than just a novel of adventure, more than an encyclopaedia of whaling lore and legend, the book can be seen as part of its author's lifelong meditation on America. Written with wonderfully redemptive humour, Moby-Dick is also a profound inquiry into character, faith, and the nature of perception.
+
+This edition of Moby-Dick, which reproduces the definitive text of the novel, includes invaluable explanatory notes, along with maps, illustrations, and a glossary of nautical terms.
+</p>
+  <!-- Review adding panel -->
+<h3>Review List</h3>
+  <input type="text" id="review-input-page4" placeholder="Add a review...">
+  <button id="add-review" onclick="fetchInfo('review-input-page4')">Add</button>
+  <button id="delete-all">Delete All</button>
+  <p id="review-list-page4">
+    No reviews yet
+  
+    <hr>
+<h3>About the Author</h3>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="dynamic-img">
+<p>
+    Herman Melville was an American novelist, short story writer, essayist, and poet. His first two books gained much attention, though they were not bestsellers, and his popularity declined precipitously only a few years later. By the time of his death he had been almost completely forgotten, but his longest novel, Moby Dick — largely considered a failure during his lifetime, and most responsible for Melville's fall from favor with the reading public — was rediscovered in the 20th century as one of the chief literary masterpieces of both American and world literature.
+</p>
+  <script src="reviews.js"> </script>
+  <script src="reviewsinterface.js"> </script>
+  <script>tempLoad = [MobyReviews,"MobyJSON", document.getElementById("review-list-page4")] </script>
+</html>

@@ -1,0 +1,142 @@
+<!-- 
+Shreeansha Bhattarai 1008376785
+Kerry Zhang 1008080130
+Siru Gautam 1007338418 
+-->
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+
+<body>
+  <h2>Change to Dark or Light Mode</h2>
+  <button on onclick="DM()"> Dark Mode</button>
+  <hr>
+
+<!-- sidebar with hamburger button -->
+  <div id="sidebar" onclick="show()">
+    <div class="toogle-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class=info>
+      <ul>
+        <li class="line"><a href="index.html">Home</a></li>
+        <li class="line"><a href="login.html">Login </a></li>
+        <li class="line"><a href="reviews.html">Reviews</a></li>
+        <li class="line"><a href="#" onclick="adminCheck()">Admin</a></li>
+        <li class="line"><a href="#">Top</a></li>
+
+
+      </ul>
+    </div>
+  </div>
+
+
+<!-- admin controls -->
+  <center>
+    <p class="adm"> ADMIN CONTROLS:<button onclick="switchBooks()" class="admbtn">Switch-book-order</button> </p>
+    <button onclick="resetOrder()" class="admbtn">Reset Order</button>
+  </center>
+
+  <center class="chunk">
+    <p class="video-title">
+      Feeling anxious about what to read, look no further!!
+    </p>
+
+<!-- stats about the page -->
+    <p class="video-stats">
+      3.4M Views &#183; Published: 2023-03-16
+    </p>
+
+<!-- paragraph explaining the webpage -->
+    <p class="b">
+      Books are a great companions for us humans. People dive so deep into it to a point where they forget about their
+      surroundings. Surveying readers from across the globe we have found out the five most popular books among the
+      readers at this current time.
+      They are listed in no particular order. If interested click on a boock which will direct you to the summary page
+      giving potential readers more
+      details about the book.
+    </p>
+
+<!-- Book 1--> 
+    <div class="bk">
+      <h1>Fire and Blood</h1>
+      <a href="page1.html" target="blank" class="image1">
+        <img src="https://img1.od-cdn.com/ImageType-100/1855-1/%7BCE520B61-858A-4678-8034-59588AE502EE%7DImg100.jpg"
+          class="pics">
+      </a>
+      <p class="b">
+        Author: George RR Martin
+      </p>
+    </div>
+
+    <hr>
+    
+<!-- Book 2-->
+        <div class="bk">
+      <h2>Moby Dick</h2>
+      <a href="page4.html" target="blank" class="image2">
+        <img src="https://m.media-amazon.com/images/I/41RVtE3JJIL.jpg" class="pics">
+      </a>
+      <p class="b">
+        Author: Herman Melville
+      </p>
+    </div>
+
+    <hr>
+    
+<!-- Book 3-->
+     <div class="bk">
+      <h1>The Notebook</h1>
+      <a href="page2.html" target="blank" class="image3">
+        <img src="https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9780751540475&w=&h=570" class="pics">
+      </a>
+      <p class="b">
+        Author: Nicholas Sparks
+      </p>
+    </div>
+
+    <hr>
+<!-- Book 4-->
+    
+    <div class="bk">
+      <h1> Harry Potter and Chamber of Secrets</h1>
+      <a href="page3.html" target="blank" class="image4">
+        <img src="https://images.mymovies.net/images/film/cin/350x522/fid21825.jpg" class="pics">
+      </a>
+      <p class="b">
+        Author: JK Rowling
+      </p>
+    </div>
+
+    <hr>
+<!--book 5 -->
+    <div class="bk">
+      <h1>The Knife of Never Letting Go</h1>
+      <a href="page5.html" target="blank" class="image5">
+        <img
+          src="https://media1.popsugar-assets.com/files/thumbor/QQjsLcngkusTFw3rqe9OOi7nplY/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/03/10/013/n/1922283/fefb1fbb8bac13c4_knife1/i/Knife-Never-Letting-Go-Patrick-Ness.jpg"
+          class="pics">
+      </a>
+      <p class="b">
+        Author: Patrick Ness
+      </p>
+    </div>
+
+    <hr>
+
+</body>
+</center>
+
+<!-- Footer for all members -->
+<footer class="highlight">
+  <li class="ker"> Kerry Zhang: 1008080130</li>
+  <li class="shr"> Shreeansha Bhattarai: 1008376785 </li>
+  <li class="sir"> Siru Gautam: 1007338418 </li>
+</footer>
+<script type="text/javascript" src="admin.js"></script>
+
+</html>

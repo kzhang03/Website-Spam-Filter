@@ -1,0 +1,77 @@
+
+        .box{
+            
+            border-radius: 20px;
+            width: 200px;
+            height: 45px;
+        }
+        .sub{
+            background-color: lightpink (234, 20, 20);
+            color: rgb(1, 1, 11);
+            border-style: solid;
+            border-color: darkmagenta;
+            height: 45px;
+            width: 80px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            
+                
+            transition: background-color 1s, color 1s;
+        }
+        
+        .sub:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .sub:active{
+            opacity: 0.5;
+        }
+
+        input::placeholder{
+            padding-left: 25px;
+            font-size: 18px;
+        }
+        .t{
+            font-size: 25px;
+        }
+        
+        body{
+            background-color: pink;
+            
+        }
+.dark-mode {
+            background-color: #1c1c1c;
+            color: #ffffff;
+            
+            }
+
+
+.dark-mode .highlight{
+        margin-top:30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #050000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:20px;
+        color:white
+}
+
+.dark-mode table, th, td{
+  border: 1px solid white; 
+}
+/*button*/
+button {
+  background-color: lavender;
+  border: none;
+  color: purple;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    

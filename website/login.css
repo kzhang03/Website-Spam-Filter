@@ -1,0 +1,59 @@
+/* 
+TO-DO LIST:
+The login button for whatever reason 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.login-container { 
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  margin: 100px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+
+}
+
+.login-button {
+  background-color: #04AA6D; 
+  color: white;
+  font-size: 16px; 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  opacity: 0.85;
+  display: inline-block;
+}
+
+.login-button:hover {
+  opacity: 1;
+  background-color: #45a049;
+}
+
+.login-button:active {
+  transform: scale(0.95);
+}
+
+input {
+  background-color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+  opacity: 0.85;
+} 
+
+input:hover {
+  opacity: 1;
+}
+
